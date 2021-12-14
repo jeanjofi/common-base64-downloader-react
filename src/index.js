@@ -91,12 +91,8 @@ export function triggerBase64Download(base64, name = defaultDownloadName) {
 export function getExtFromBase64(base64) {
     let ext;
     if (typeof base64 === "string") {
-        console.log(base64)
         ext = Object.keys(mimeType).find((key) => base64.indexOf(getPrepend(key)) === 0);
     }
-
-    console.log(ext);
-
     // if extension was found, return it, otherwise throw.
     if (ext) {
         return ext;
