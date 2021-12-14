@@ -1,0 +1,63 @@
+{
+    "name": "common-base64-downloader-react",
+    "version": "2.1.7",
+    "description": "Easily convert and download base64 strings of any type in React.",
+    "main": "dist/index.js",
+    "engine": {
+        "node": "14.16.1"
+    },
+    "scripts": {
+        "test": "jest -- test.js",
+        "dev": "webpack --mode=development --watch",
+        "build": "webpack --mode=production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeanjofi/common-base64-downloader-react.git"
+    },
+    "keywords": [
+		"common-base64-downloader-react",
+        "react-base64-downloader",
+		"react-download",
+		"pdf",
+		"xlsx",
+        "react",
+        "base64",
+        "download",
+        "convert",
+        "canvas",
+        "file",
+        "blob",
+        "string"
+    ],
+    "author": "Jean Jofi J",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jeanjofi/common-base64-downloader-react/issues"
+    },
+    "homepage": "https://github.com/jeanjofi/common-base64-downloader-react#readme",
+    "peerDependencies": {
+        "react": ">=15.0.1",
+        "react-dom": ">=15.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.0",
+        "@babel/preset-env": "^7.14.0",
+        "@babel/preset-react": "^7.13.13",
+        "b64-to-blob": "^1.2.19",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-rewire": "^1.2.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.6",
+        "file-saver": "^2.0.5",
+        "html-webpack-plugin": "^3.2.0",
+        "jest": "^24.9.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-merge": "^4.2.2"
+    }
+}
