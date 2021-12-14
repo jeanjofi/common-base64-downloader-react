@@ -1,6 +1,6 @@
 {
     "name": "common-base64-downloader-react",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Easily convert and download base64 strings of any type in React.",
     "main": "dist/index.js",
     "engine": {
