@@ -1,6 +1,6 @@
 {
     "name": "common-base64-downloader-react",
-    "version": "2.1.7",
+    "version": "1.0.1",
     "description": "Easily convert and download base64 strings of any type in React.",
     "main": "dist/index.js",
     "engine": {
@@ -16,11 +16,11 @@
         "url": "git+https://github.com/jeanjofi/common-base64-downloader-react.git"
     },
     "keywords": [
-		"common-base64-downloader-react",
+        "common-base64-downloader-react",
         "react-base64-downloader",
-		"react-download",
-		"pdf",
-		"xlsx",
+        "react-download",
+        "pdf",
+        "xlsx",
         "react",
         "base64",
         "download",
