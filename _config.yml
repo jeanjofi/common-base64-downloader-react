@@ -1,1 +1,12 @@
+title: React Common Base 64 downloader
+email: jeanjofi@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Easily convert and download base64 strings of any file type in React..
+baseurl: "/example" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jeanjofi
+github_username:  jeanjofi
+gitlab_username:  jeanjofi
+
 theme: jekyll-theme-cayman
+
